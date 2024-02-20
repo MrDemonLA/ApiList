@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 // Tableau initial vide pour stocker vos éléments
-let TabList = ["soda", "test", "test2"];
+let TabList = [];
 
 // Middleware pour permettre à Express de parser les requêtes JSON
 app.use(express.json());
